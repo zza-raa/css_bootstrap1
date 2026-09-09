@@ -1,0 +1,168 @@
+<html>
+  <head>
+    <title>Belajar IF-F</title>
+
+    <!--Style Internal-->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: beige;
+      }
+
+      p {
+        background-color: cadetblue;
+        padding: 10;
+        border: 2.5px solid black;
+        justify-content: center;
+        text-align: right;
+      }
+
+      h1 {
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: 100;
+        border: 3px solid black;
+        padding: 20;
+        color: cadetblue;
+        background-color: bisque;
+        justify-content: center;
+      }
+
+      div {
+        background-color: azure;
+        display: flex;
+      }
+    </style>
+
+    <!--Style Eksternal-->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <h1>Test Head 1</h1>
+    <h2>Test Head 2</h2>
+    <h3>Test Head 3</h3>
+    <h4>Test Head 4</h4>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus in
+      deleniti fuga id perferendis necessitatibus, porro incidunt placeat
+      consequatur ad nemo sapiente totam assumenda officia tempore voluptas
+      dolorum quis eius!
+      <br />
+      <br />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam odit et
+      totam nulla expedita ab quas, molestias dignissimos neque eveniet. Nulla
+      voluptatum fugiat quidem qui sed nemo sint incidunt distinctio?
+    </p>
+
+    <center>Judul Paragraf</center>
+    <br />
+    <center>
+      <!--"_blank" digunakan supaya waktu membuka web langsung ke tab baru-->
+      <a href="https://spada.upnyk.ac.id" target="_blank">link menuju spada</a>
+    </center>
+
+    <ul>
+      <!--Unordered List-->
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <ol type="i">
+      <!--Ordered List-->
+      <li>Test 1</li>
+      <li>Test 2</li>
+      <li>Test 3</li>
+    </ol>
+
+    <center>
+      <!--table>tr*3>td*2>h4-->
+      <table border="1" style="border-collapse: collapse">
+        <tr>
+          <td>
+            <h4>No</h4>
+          </td>
+          <td>
+            <h4>Nama</h4>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h4>1</h4>
+          </td>
+          <td>
+            <h4>Olivia</h4>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h4>2</h4>
+          </td>
+          <td>
+            <h4>Azzahra</h4>
+          </td>
+        </tr>
+      </table>
+
+      <br />
+      <br />
+
+      <img
+        src="https://cdn.visiteliti.com/article/2026-01/07/vNWzQpUcmppUoRl2l2nr_1767749274.webp"
+        alt="Di sini ada gambar"
+        width="200px"
+      />
+    </center>
+
+    <br /><br />
+    <form action="https://spada.upnvyk.ac.id" target="_blank" method="post">
+      <p>
+        Name: <br />
+        <input type="text" name="nama" />
+      </p>
+
+      <p>
+        <!--Bisa pilih keduanya-->
+        Hobby: <br />
+        <input type="checkbox" name="olivia" id="" /> baca novel
+        <input type="checkbox" name="olivia" id="" /> baca webtoon
+      </p>
+
+      <p>
+        <!--Hanya bisa milih salah satu-->
+        <!--name harus sama biar cuma bisa dipilih salah satu-->
+        Gender: <br />
+        <input type="radio" name="Olivia" id="" /> laki-laki
+        <input type="radio" name="Olivia" id="" /> perempuan
+      </p>
+
+      <p>
+        <button class="btn-btn-danger" type="submit">Klik di sini</button>
+        <!--menuju "action" yang di atas, dalam hal ini web spada-->
+        <br />
+        <br />
+        <button type="reset">Byee</button>
+      </p>
+    </form>
+
+    <div id="header text-center" class="container">
+      <!--digunakan untuk menyimpan banyak elemen dan dikelompokkan-->
+      <h1>Test Head 1</h1>
+      <h2>Test Head 2</h2>
+      <h3>Test Head 3</h3>
+      <h4>Test Head 4</h4>
+    </div>
+
+    <div class="card" style="width:400px">
+      <img class="card-img-top" src="https://cdn.visiteliti.com/article/2026-01/07/vNWzQpUcmppUoRl2l2nr_1767749274.webp" alt="Card image" width="200px">
+      <div class="card-body">
+        <h4 class="card-title">Doraemon</h4>
+        <p class="card-text">Some example text.</p>
+        <a href="#" class="btn btn-primary">See Profile</a>
+      </div>
+    </div>  
+  </body>
+</html>
